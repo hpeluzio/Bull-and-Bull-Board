@@ -1,0 +1,20 @@
+{
+  "name": "bullqueue",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "@bull-board/api": "^3.5.2",
+    "@bull-board/express": "^3.5.2",
+    "bull": "^3.28.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "sucrase": "^3.20.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
